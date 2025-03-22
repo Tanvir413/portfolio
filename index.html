@@ -11,6 +11,9 @@
 		<link rel="stylesheet" type="text/css" href="desktopscreen.css">
 		<link rel="stylesheet" href="font-awesomes file\css file\all.min.css">
 		<link rel="stylesheet" href="font-awesomes file\css file\fontawesome.min.css">
+
+			<!-- email js cdn link -->
+		<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 			 <!-- Favicon Set Korar Code -->
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<title>@TaNvIr</title>
@@ -230,16 +233,16 @@
 						<h2>CONTACT ME</h2>
 					<hr class="dotted-hr">
 	
-	<form action="mailto:thanvirhossain50@gamail.com" method="post" enctype="text/plain">
+	<form id="contact-form" action="" method="" enctype="">
 		<input type="text" name="fname" id="fname" placeholder="First Name"><br/>
 		<input type="text" name="lname" id="lname" placeholder="Last Name"><br/>
-</form>
-
+		
 	<textarea name="subject" id="subject" cols="30px" rows="10px" placeholder="Write your message here....." required></textarea>
 		<div class="form-btn">
 			<button type="submit">SUBMIT</button>
 				<button type="reset">RESET</button>
 		</div>
+		</form>
 	
 							</div>
 							
@@ -286,6 +289,7 @@
 			</div>	
 		<!footer ends here>
 		<script src="navigation.js"></script>
+		<script src="contactform.js"></script>
 		<script src="autoyearchange.js"></script>
 	</body>
 </html>  

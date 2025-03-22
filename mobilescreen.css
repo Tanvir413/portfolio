@@ -110,8 +110,19 @@ p{
 	transition: transform 2s;
 }
 
-.profile .earth-icon:hover{
+.profile .earth-icon::after{
+	animation-name: earth-icon;
+}
+@keyframes rotateInfinite {
+0% {
+	 transform: rotate(0deg);
+}
+100% {
 	transform: rotate(360deg);
+}
+ }
+.profile .earth-icon{
+	animation: rotateInfinite 3s linear infinite;
 }
 
 .profile-description h1{

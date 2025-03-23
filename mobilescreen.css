@@ -174,7 +174,7 @@ p{
 }
 .about-me p{
 		text-align: center;
-		font-size: 2rem;
+		font-size: .7rem;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -184,7 +184,7 @@ p{
 }
 .about-me a{
 	text-align: center;
-	font-size: 2rem;
+	font-size: .7rem;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;

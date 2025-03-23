@@ -622,8 +622,11 @@ form input, textarea::placeholder{
 .about-me h2{
 	font-size: 3rem;
 }
-.aboutme-description p,a{
-	font-size: 1.5rem;
+.aboutme-description p{
+	font-size: 1.2rem;
+}
+.aboutme-description a{
+	font-size: 1.2rem;
 }
 .aboutme-description a:hover{
 	color: blue;
@@ -803,7 +806,7 @@ form input, textarea::placeholder{
 	
 	/*about me section starts here*/
 .about-me h2{
-	font-size: 1.2rem;
+	font-size: 3rem;
 }
 .aboutme-description p{
 	font-size: 1.2rem;

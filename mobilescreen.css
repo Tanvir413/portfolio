@@ -42,7 +42,6 @@ color:rgb(71, 10, 240);
 
 a{
 	color:rgb(73, 15, 167);
-	font-size:1.2rem;
 	text-decoration:none;
 }
 
@@ -52,7 +51,7 @@ a:hover{
 
 p{
 	font-size:1.2rem;
-	text-align:justify;
+	text-align:center;
 }
 .dotted-hr{
 	text-align:center;

@@ -138,11 +138,7 @@ p{
 
 }
 
-.profile::after{
-	content: '';
-	display:table;
-	clear:both;
-}
+
 /* profile design ends here*/
 
 /*about me starts here*/

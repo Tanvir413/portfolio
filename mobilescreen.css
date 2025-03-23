@@ -52,7 +52,6 @@ a:hover{
 
 p{
 	font-size:1.2rem;
-	text-align:justify;
 }
 .dotted-hr{
 	text-align:center;
@@ -173,7 +172,6 @@ p{
 	font-size: 1.2rem;
 }
 .about-me p{
-		text-align: center;
 		font-size: .7rem;
 		display: flex;
 		flex-direction: row;
@@ -183,7 +181,6 @@ p{
 		align-items: center;
 }
 .about-me a{
-	text-align: center;
 	font-size: .7rem;
 	display: flex;
 	flex-direction: row;

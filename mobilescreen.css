@@ -137,7 +137,11 @@ p{
 	width:90%;
 
 }
-
+.profile::after{
+	content: '';
+	display:table;
+	clear:both;
+}
 
 /* profile design ends here*/
 
@@ -170,9 +174,9 @@ p{
 }
 .about-me p{
 		text-align: center;
-		font-size: .7rem;
+		font-size: .2rem;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		flex-wrap: wrap;
 		align-content: center;
 		justify-content: center;
@@ -180,9 +184,9 @@ p{
 }
 .about-me a{
 	text-align: center;
-	font-size: .7rem;
+	font-size: 2rem;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	align-content: center;
 	justify-content: center;
